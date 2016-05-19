@@ -48,9 +48,29 @@ var app = {
     }
 };
 
-$( document ).bind( "mobileinit", function() {
+$(document).bind("mobileinit", function() {
     // Make your jQuery Mobile framework configuration changes here!
 
     $.mobile.allowCrossDomainPages = true;
-    $.support.cors=true;
+    $.support.cors = true;
 });
+
+function ajindia() {
+    alert("in ajindia");
+    $.ajax({
+        url: "http://employwe.herokuapp.com/ajbasicajax",
+        type: "Get",
+        dataType: "json",
+        data: { data: "jlkjlkj" },
+        ContentType: "application/json",
+        success: function(resp) {
+            alert("in success");
+            alert(JSON.stringify(response));
+        },
+        error: function(err) {
+            alert("in error");
+            alert(JSON.stringify(err));
+        }
+    });
+    alert("past ajax");
+}
