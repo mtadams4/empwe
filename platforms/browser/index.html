@@ -33,6 +33,7 @@
     <body>
         <div class="app">
             <div id="hideme" style="font-size:20pt" onclick="hideme()">test JQuery hide</div>
+            <div id="aj" style="font-size:20pt; background-color:red; padding:5%" onclick="basicajax()">check ajax</div>
             <h1>EmployWe</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Meet Candidates</p>
@@ -44,6 +45,26 @@
         function hideme(){
             alert("in hideme");
             $("#hideme").hide();
+        }
+        </script>
+        <script type="text/javascript">
+        function basicajax(){
+            alert("in basicajax");
+            $.ajax({
+                type: "POST",
+                dataType: 'json',
+                url: "http://employwe.herokuapp.com/ajbasicajax",
+                data: {
+                    data: '1111ggggg',
+                    format: 'raw',
+                },
+                dataType: "json", //expect json to be returned
+                success: function(resp) {
+                    //$("#appcover_loading").hide();
+                    alert("in success"+resp['data']);
+                }
+            });
+            alert("end basicajax");
         }
         </script>
         <script type="text/javascript" src="cordova.js"></script>

@@ -90,6 +90,8 @@ h1 {
 .event.listening {
     background-color:#333333;
     display:block;
+    font-size:15pt;
+    padding: 2%;
 }
 
 .event.received {
