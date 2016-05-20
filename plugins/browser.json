@@ -11,9 +11,5 @@
             "PACKAGE_NAME": "com.employwe.app"
         }
     },
-    "dependent_plugins": {},
-    "modules": [],
-    "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.2.3-dev"
-    }
+    "dependent_plugins": {}
 }
