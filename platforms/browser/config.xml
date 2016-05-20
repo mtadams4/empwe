@@ -5,6 +5,7 @@
     <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap Team</author>
     <content src="index.html" />
     <icon src="icon.png" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <access origin="http://employwe.com" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
