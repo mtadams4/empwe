@@ -55,22 +55,3 @@ $(document).bind("mobileinit", function() {
     $.support.cors = true;
 });
 
-function ajindia() {
-    alert("in ajindia");
-    $.ajax({
-        url: "http://employwe.herokuapp.com/ajbasicajax",
-        type: "Get",
-        dataType: "json",
-        data: { data: "jlkjlkj" },
-        ContentType: "application/json",
-        success: function(resp) {
-            alert("in success");
-            alert(JSON.stringify(response));
-        },
-        error: function(err) {
-            alert("in error");
-            alert(JSON.stringify(err));
-        }
-    });
-    alert("past ajax");
-}
