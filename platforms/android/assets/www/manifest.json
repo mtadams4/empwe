@@ -3,29 +3,63 @@
     "short_name": "EmployWe",
     "icons": [
         {
-            "src": "/employweappdist/2016-06-02_E_70x70.png",
-            "sizes": "70x70",
-            "type": "image/png"
-        },
-        {
-            "src": "/employweappdist/2016-06-02_E_14.png",
+            "src": "/employweappdist/2016-06-02_E_014.png",
             "sizes": "14x14",
             "type": "image/png"
         },
         {
-            "src": "/employweappdist/2016-06-02_E_48.png",
+            "src": "/employweappdist/2016-06-02_E_016.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/employweappdist/2016-06-02_E_048.png",
             "sizes": "48x48",
             "type": "image/png"
         },
         {
-            "src": "/employweappdist/2016-06-02_E_70x70.png",
+            "src": "/employweappdist/2016-06-02_E_070.png",
+            "sizes": "70x70",
+            "type": "image/png"
+        },
+        {
+            "src": "/employweappdist/2016-06-02_E_072.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/employweappdist/2016-06-02_E_076.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        },
+        {
+            "src": "/employweappdist/2016-06-02_E_096.png",
             "sizes": "96x96",
             "type": "image/png"
         },
         {
-            "src": "/employweappdist/2016-06-02_E_70x70.png",
+            "src": "/employweappdist/2016-06-02_E_144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/employweappdist/2016-06-02_E_180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/employweappdist/2016-06-02_E_192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/employweappdist/2016-06-02_E_512.png",
             "sizes": "512x512",
             "type": "image/png"
+        },
+        {
+            "src": "/employweappdist/2016-06-02_E_170x200.png",
+            "sizes": "170x200"
         }
     ],
     "start_url": "http://employwe.herokuapp.com/",
